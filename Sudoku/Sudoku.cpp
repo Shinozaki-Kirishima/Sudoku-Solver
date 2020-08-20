@@ -40,7 +40,7 @@ pair<int, int> findEmptyLocation(int board[SIZE][SIZE])
 		{
 			if (board[i][j] == blankSpace)
 			{
-				return std::make_pair(i, j);
+				return make_pair(i, j);
 			}
 		}
 	}
